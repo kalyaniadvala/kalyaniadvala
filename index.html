@@ -9,13 +9,17 @@
         margin: 0px;
       }
       .header {
-        background-color: orange;
+        /* background:linear-gradient(rgb(108, 182, 235),rgb(49, 224, 154)); */
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 20px;
+        background-color: black;
+        color:white;
       }
       .header a {
         text-decoration: none;
+        color: white;
       }
       .header li {
         display: inline-block;
@@ -28,23 +32,28 @@
         display: flex;
         justify-content: center;
         padding :100px;
-        height:600px;
+        height:80%;
         align-items: center;
+        background-image: url(image6.jpg);
       }
       .row .box {
         border: solid 1px silver;
+        background-image:url(image.png);
         margin: 10px;
-        width: 300px;
+        width: 350px;
+        height: 480px;
+        border-radius:6%;
       
 
       }
       .row2 {
         display: flex;
         justify-content: center;
-        background-color: aqua;
+        background-color: cadetblue;
         height:600px;
         padding:100px;
         align-items: center;
+        height:80%
       }
       .row2 .box {
         
@@ -62,7 +71,14 @@
         padding: 20px;
       }
       img {
+        padding:10px;
         width: 300px;
+        height:300px;
+        border-radius: 10%;
+      }
+      button {
+        background-color: rgb(4, 173, 136);
+        border-radius: 5px;
       }
 
     </style>
@@ -70,8 +86,8 @@
   <body>
     <div>
       <div class="header">
-        <div>
-          <h1>My Store</h1>
+        <div >
+          <h1>My Store </h1>
         </div>
         <div>
           <ul>
@@ -82,53 +98,56 @@
           </ul>
         </div>
       </div>
+      <hr>
 
       <div class="row">
         <div class="box">
-          <img src="1.png" />
-          <h3>Product 1</h3>
-          <h4>This is the description of the product</h4>
-          Price:$25<button>Add to Cart</button>
+          <img src="image1.png">
+          <h3>Instax mini 11 Camera</h3>
+          <p>It captures the best selfies and close up moments with better brightness with automatic exposure. The mini 11 is available in 5 pastel shades to make you spoilt for choice!</p>
+          <br><h4>Price:5,999/-  <button>Add to Cart</button></h4>
         </div>
         <div class="box">
-          <img src="2.png" />
-          <h3>Product 2</h3>
-          <h4>This is the description of the product</h4>
-          Price:$25<button>Add to Cart</button>
+          <img src="image2.png">
+          <h3>Sony a6700</h3>
+          <p>The Sony a6700 combines all-round stills and video capabilities with class-leading autofocus. The standard 16-50mm kit zoom's not great, though.</p>
+          <br><h4>Price:20,999/-  <button>Add to Cart</button></h4>
         </div>
         <div class="box">
-          <img src="3.png" />
-          <h3>Product 3</h3>
-          <h4>This is the description of the product</h4>
-          Price:$25<button>Add to Cart</button>
+          <img src="image3.png">
+          <h3>OM-5</h3>
+          <p>The OM-5 offers a smaller, more rugged alternative to APS-C or full-frame cameras.</p>
+          <br><h4>Price:25,000/-  <button>Add to Cart</button></h4>
         </div>
       </div>
 
       <div class="row2">
-        <img src="4.png" />
-        <div class="box" >
-          <h3>heading</h3>
-          <h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            molestiae aut doloremque iure quam amet voluptas! Nam, rerum aliquam
-            inventore enim ad eveniet voluptatibus id minus, quasi nobis omnis
-            et?
+        <img src="image4.png" />
+        <div class="box" style="background-color:cadetblue">
+          <h3 style="color:white"><br><br>Nikon D5600 DSLR Camera Body with AF-P DX Nikkor 18-55 MM F/3.5-5.6G VR</h3>
+          <br><br><h4 style="color:white">
+            24.2MP DX-Format CMOS Sensor
+EXPEED 4 Image Processor
+3.2″ 1.037m-Dot Vari-Angle Touchscreen
+Full HD 1080p Video Recording at 60 fps
+Multi-CAM 4800DX 39-Point AF Sensor
+ISO 100-25600 and 5 fps Shooting
+SnapBridge Bluetooth and Wi-Fi with NFC
+Time-Lapse Movie Recording
+AF-P DX 18-55mm f/3.5-5.6G VR Lens
           </h4>
         </div>
       </div>
 
-      <div class="row2" style="background-color: aliceblue;">
-        <div class="box" >
-            <h3>heading</h3>
-            <h4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              molestiae aut doloremque iure quam amet voluptas! Nam, rerum aliquam
-              inventore enim ad eveniet voluptatibus id minus, quasi nobis omnis
-              et?
+      <div class="row2" style="background-color: rgb(188, 188, 241);">
+        <div class="box" style="background-color: rgb(188, 188, 241);" >
+            <h3><br><br>Fujifilm Instax Mini 12 Instant Camera-Purple</h3>
+            <br><br><h4>
+              If you are looking for an instant camera to capture your favourite moments, then this Fujifilm Instax Mini 12 is ideal for you. It comes with a pull-out selfie lens so that you can click beautiful selfies and great close-up shots. Moreover, you can capture and print your pictures on high-quality mini-films that are as big as a credit card. Furthermore, you can customize the shutter button to suit your style.
             </h4>
           </div>
         
-          <img src="5.png"/>
+          <img src="image5.png"/>
        
         
       </div>
